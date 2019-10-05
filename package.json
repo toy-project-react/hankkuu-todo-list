@@ -1,0 +1,27 @@
+{
+    "name": "react_todo",
+    "version": "1.0.0",
+    "main": "./src/App.js",
+    "scripts": {
+        "devserver": "node_modules/.bin/webpack-dev-server --config webpack.dev.config.js"
+    },
+    "author": "apple77y@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-spinners": "^0.5.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.3",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/plugin-transform-runtime": "^7.2.0",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3",
+        "webpack-dev-server": "^3.2.0"
+    },
+    "description": "todo list의 추가/삭제 기능을 최대한 간단하게 리액트로 개발"
+}
